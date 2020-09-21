@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+/* nav bar */
+
+nav {
+  background-color: black;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2% 1%;
+}
+nav a {
+  text-decoration: none;
+  /* color: white; */
+  color: #f94144;
+  font-size: 1.3rem;
+}
+nav a:hover {
+  color: blue;
+}
+/* end of navbar */
+/* banner */
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(image-1.jpg);
+  height: 91vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-text {
+  font-size: 4rem;
+  /* color: white; */
+  color: #f94144;
+  text-align: center;
+  font-weight: 900;
+}
+.banner-btn {
+  display: flex;
+  /* text-align: center;
+  display: inline-block;
+  margin-left: 35%; */
+
+  justify-content: space-between;
+  padding: 0 10%;
+  margin-top: 5%;
+}
+
+.banner-title {
+  background-color: darkgray;
+  /* background: transparent; */
+  padding: 3%;
+  border: 10px solid black;
+}
+.banner-btn button {
+  font-size: 1.5rem;
+  color: black;
+  padding: 1.2%;
+  /* margin: 0 1%; */
+  /* padding: 1%; */
+}
+
+.p-1 {
+  /* color: white; */
+  color: #f94144;
+  font-weight: 900;
+  text-align: center;
+  font-size: 2rem;
+  margin: 2%;
+}
+/* end of banner */
+
+/* section 1 */
+.section-1 {
+  padding: 5% 15%;
+  background-color: #f94144;
+}
+.article-1 {
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 150%;
+}
+/* end of section 1 */
+
+/* section 2 */
+h2 {
+  font-size: 2.5rem;
+}
+.section-2 {
+  padding: 5% 15%;
+}
+.article-2 {
+  display: flex;
+  font-size: 1.3rem;
+  justify-content: space-between;
+  line-height: 150%;
+}
+.item-1 {
+  max-width: 60%;
+  margin-right: 3%;
+}
+.item-2 img {
+  display: inline-block;
+  width: 400%;
+  /* height: 100%; */
+}
+/* end of section 2 */
+
+/* footer */
+footer {
+  background-color: #191716;
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.social-media a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  /* margin-right: 1%;
+  padding-right: 5%; */
+}
+.social-media a:hover {
+  color: blue;
+}
+/* end of footer */
