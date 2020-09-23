@@ -1,3 +1,74 @@
+/* @media only screen and (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav a {
+    margin: 1% 0;
+    font-size: 1.2rem;
+  }
+  .article-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .item-1 {
+    max-width: 100%;
+    margin-bottom: 5%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .article-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .item-1 {
+    max-width: 100%;
+    margin-bottom: 5%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .article-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .item-1 {
+    max-width: 100%;
+    margin-bottom: 5%;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  article img {
+    width: 40%;
+  }
+  .banner-title {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .member-info {
+    padding: 5% 2%;
+  }
+  img {
+    width: 50%;
+  }
+  .style-1 {
+    max-width: 50%;
+  }
+  .article-1-2 {
+    display: flex;
+    flex-direction: column;
+  }
+} */
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   nav {
@@ -19,8 +90,31 @@
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and down) */
-@media only screen and (max-width: 768px) {
+/* Small devices (portrait tablets and large phones, 840px and down) */
+@media only screen and (max-width: 840px) {
+  .article-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .item-1 {
+    max-width: 100%;
+    margin-bottom: 5%;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  article img {
+    width: 40%;
+  }
+}
+
+/* Medium devices (landscape tablets, 992px and down) */
+@media only screen and (max-width: 992px) {
   .article-2 {
     display: flex;
     flex-direction: column;
@@ -31,16 +125,18 @@
     /* margin-right: 3%; */
   }
 }
-
-/* Medium devices (landscape tablets, 768px and down) */
-@media only screen and (max-width: 992px) {
-  .article-2 {
+@media only screen and (max-width: 1200px) {
+  .member-info {
+    padding: 5% 2%;
+  }
+  img {
+    width: 50%;
+  }
+  .style-1 {
+    max-width: 50%;
+  }
+  .article-1-2 {
     display: flex;
     flex-direction: column;
-  }
-  .item-1 {
-    max-width: 100%;
-    margin-bottom: 5%;
-    /* margin-right: 3%; */
   }
 }
